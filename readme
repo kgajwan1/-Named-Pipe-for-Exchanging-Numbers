@@ -1,0 +1,21 @@
+By Gajju
+
+FILES INCLUDED IN THE TARBALL (excluding README):
+	
+	1. Kernel-module code :  my_device_driver.c
+					- Character device.
+
+	2. User-space code    :  my_producer.c
+					- User-space code to infinitely write string (take from command line) to the character device.
+				
+				 my_consumer.c
+					- User-space code to infinitely read string (length taken from command line) from the character device.
+	
+	
+	3. Compilation files  :  Makefile
+					- Compiles Kernel-module code and the User-space code.
+
+KERNEL VERSION USED : 
+	
+	LINUX KERNEL 4.4.3
+
